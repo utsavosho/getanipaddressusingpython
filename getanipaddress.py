@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 import bs4
 import requests
 res = requests.get('https://www.myip.com/')
@@ -19,8 +13,6 @@ ip[0].getText()
 my_ip = ip[0].getText()
 print(my_ip)
 
-
-# In[ ]:
 
 
 
